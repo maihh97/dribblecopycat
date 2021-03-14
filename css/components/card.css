@@ -1,0 +1,142 @@
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.3),
+    rgba(255,255,255,0.3)
+    );
+  width: 350px;
+  height: 700px;
+  margin-top: -200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px #fbf6f0;
+}
+
+.card.bigger {
+  width: 600px;
+  padding-top: 20px;
+  height: 700px;
+}
+
+.card-tab {
+  padding: 30px 20px;
+  height: 150px;
+  border-bottom: 2px solid lightgray;
+  background: white;
+}
+
+.last-card {
+  padding: 30px 20px;
+  height: 185px;
+  background: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.last-card.higher {
+  height: 275px;
+  border-radius: 20px;
+  margin-top: -15px;
+}
+
+.card-tab img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-title {
+  padding: 10px 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: -40px;
+}
+
+.card-title-bigger {
+  background: #440a67;
+  height: 280px;
+  margin-top: -21px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 26px 40px;
+}
+
+.card-title-bigger h2 {
+  color: white;
+  font-size: 40px
+}
+
+.img-resize {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.card-tab.date {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background: #f5f4f4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: -12px;
+}
+
+.group-chat {
+  display: flex;
+  align-items: center;
+}
+
+.group-chat img {
+  margin-right: 10px;
+}
+
+.card-tab.higher {
+  height: 330px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card-tab.title {
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  height: 120px;
+  padding: 0px;
+}
+
+.group-details {
+  padding: 10px;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    width: 1500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+
+  .card.bigger {
+    width: 300px;
+  }
+
+  .card {
+    width: 200px;
+  }
+
+  .img-resize {
+    width: 200px;
+  }
+}

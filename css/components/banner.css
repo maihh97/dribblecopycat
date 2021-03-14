@@ -1,0 +1,48 @@
+.banner{
+  background-image: url("../../images/orange.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin: 0 0;
+  padding: 50px 100px;
+  color: white;
+  z-index: 3;
+}
+
+nav {
+  float: right;
+  font-size: 20px;
+  margin: -10px;
+}
+
+nav a {
+  color: white;
+}
+
+nav > a:hover {
+  color: #440a67;
+}
+
+.welcome-card {
+  padding: 100px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-main {
+  background: white;
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 10px 30px;
+  color: #440a67;
+  margin-top: 40px;
+  margin-right:0px;
+  font-style: bold;
+}
+
+.btn-main:hover {
+  color: #440a67;
+  background: #ffe3fe;
+}
